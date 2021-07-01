@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T03:48:44.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="y2_3yJnFB82ohRMZvaGr" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T03:56:00.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="EYusq9AcSYGR_1o_Mon_" version="14.8.3" type="github">
   <diagram id="zH-_1CdU2DPZDz_4S6Dk" name="Page-1">
     <mxGraphModel dx="1108" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="550" y="220" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WiCxdoFNektV1g-zQjOZ-16" value="&lt;h1&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;按机房选择提供者&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;align=center;strokeColor=#314354;fontColor=#ffffff;fillColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="495" y="360" width="420" height="350" as="geometry" />
+          <mxGeometry x="430" y="360" width="550" height="490" as="geometry" />
         </mxCell>
         <mxCell id="WiCxdoFNektV1g-zQjOZ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiCxdoFNektV1g-zQjOZ-17" target="WiCxdoFNektV1g-zQjOZ-18">
           <mxGeometry relative="1" as="geometry" />
@@ -55,8 +55,14 @@
         <mxCell id="WiCxdoFNektV1g-zQjOZ-17" value="&lt;h3&gt;消费者获取自身部署的机房属性&lt;/h3&gt;&lt;div&gt;jcf.app.deployment.zone&lt;/div&gt;&lt;span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;.app.deployment.tenant-id&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="555" y="430" width="310" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WiCxdoFNektV1g-zQjOZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WiCxdoFNektV1g-zQjOZ-18" target="WiCxdoFNektV1g-zQjOZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WiCxdoFNektV1g-zQjOZ-18" value="&lt;h3&gt;消费者获取提供者的机房属性&lt;/h3&gt;&lt;div&gt;&lt;/div&gt;spring.cloud.zookeeper.discovery.metadata.zone&lt;span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;.app.deployment.tenant-id&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="555" y="520" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WiCxdoFNektV1g-zQjOZ-21" value="&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;消费者&lt;font color=&quot;#ff3333&quot;&gt;尝试&lt;/font&gt;选择与自身部署机房相同的提供者(非HOSTIP)&lt;/h3&gt;&lt;br&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;.app.deployment.tenant-id&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="515" y="620" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
