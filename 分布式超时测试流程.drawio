@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T08:34:20.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70" etag="3jHPJ329lHP9qZPY7k01" version="14.9.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-20T08:39:56.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.70" etag="P1nJzOzetiI7MUcnMM-b" version="14.9.0" type="github" pages="3">
   <diagram id="zH-_1CdU2DPZDz_4S6Dk" name="Page-1">
     <mxGraphModel dx="1108" dy="1172" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -378,7 +378,7 @@
         <mxCell id="ePNA6iLpbFBrFWwyCqWd-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ePNA6iLpbFBrFWwyCqWd-13">
           <mxGeometry x="45" y="170" width="10" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ePNA6iLpbFBrFWwyCqWd-15" value="Connection" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="qfSCgdtNaOnX34O01faf-1">
+        <mxCell id="ePNA6iLpbFBrFWwyCqWd-15" value="LazyConnection" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="qfSCgdtNaOnX34O01faf-1">
           <mxGeometry x="740" y="40" width="100" height="650" as="geometry" />
         </mxCell>
         <mxCell id="ePNA6iLpbFBrFWwyCqWd-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ePNA6iLpbFBrFWwyCqWd-15">
@@ -499,6 +499,12 @@
             <mxPoint x="320" y="640" as="sourcePoint" />
             <mxPoint x="140" y="640" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ePNA6iLpbFBrFWwyCqWd-32" value="实际连接池" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="qfSCgdtNaOnX34O01faf-1">
+          <mxGeometry x="870" y="40" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="ePNA6iLpbFBrFWwyCqWd-33" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ePNA6iLpbFBrFWwyCqWd-32">
+          <mxGeometry x="45" y="460" width="10" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
